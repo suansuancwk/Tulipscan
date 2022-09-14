@@ -1,8 +1,8 @@
 {
-  "vt_api":"f861aea01569d88ea3b7a62ff0d8093a7031a91cae6ef311e7538bf4d6838769",
-  "wb_api": "af4a5b268f2945569e74d543c7f43c5d9df205c70a42402db7204fc44a605fe0",
-  "api_360":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxOTIzLCJ1c2VybmFtZSI6IjM2MFUzMjQ1Mjk4MTE2IiwiZXhwIjoyNDE4NzM3ODc4LCJlbWFpbCI6IiJ9.nla9Rj6HWK2rvlESQaqvVsPOuYl9_uyy3WghwCJ-xd8",
-  "ds_client_id": "6265f4d1e4b0d5c407e332a4",
-  "ds_client_secret": "Q6IYV3369Q2Y0Q1EF8JVVHBHTTO4YWQXCVOJ7FZG3PY8B5SH9R7D5Z8JGJZKFSMG",
+  "vt_api":"",
+  "wb_api": "",
+  "api_360":"",
+  "ds_client_id": "",
+  "ds_client_secret": "",
   "sandbox_type": "win7_sp1_enx64_office2013"
 }

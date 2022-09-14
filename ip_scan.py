@@ -71,8 +71,7 @@ class IPscan:
            print('\033[1;36m' + '保留地址' + '\033[0m')
 
 
-# app = IPscan()
-# app.ipscan('150.158.148.231')
+
 
 # if __name__ == '__main__':
 #     app = IPscan()
