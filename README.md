@@ -78,9 +78,9 @@ python Tulipscan.py
 
 5.ip扫描
 
-![image-20220914165425795](D:\py项目\python_yarapro\image\img_7.png)
+![image-20220914165425795](./image/img_7.png)
 
-![image-20220914165425795](D:\py项目\python_yarapro\image\img_8.png)
+![image-20220914165425795](./image/img_8.png)
 
 5.报告显示
 
