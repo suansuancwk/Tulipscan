@@ -1,0 +1,6 @@
+requests
+json2html
+yara-python
+colorama
+jinja2
+pyscreeze

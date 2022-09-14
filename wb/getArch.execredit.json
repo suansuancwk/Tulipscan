@@ -1,0 +1,62 @@
+{
+    "data": {
+        "summary": {
+            "sha1": "03e456aa2e6029cd5a0ef062100d8d5d55bd7099",
+            "md5": "3ac0eaa5b8f30ea1c239a46cac9a1658",
+            "tag": {
+                "s": [],
+                "x": [
+                    "",
+                    ""
+                ]
+            },
+            "threat_level": "clean",
+            "submit_time": "2019-08-12 10:39:23",
+            "file_name": "getArch.exe",
+            "file_type": "EXEx86",
+            "sample_sha256": "6844b720cff6e079879333d6fda944d3d3ea78878b48affd45ac81700bba0f5e",
+            "threat_score": 0,
+            "sandbox_type": "win7_sp1_enx64_office2013",
+            "multi_engines": "1/24",
+            "is_whitelist": false,
+            "malware_type": "",
+            "malware_family": "",
+            "sandbox_type_list": [
+                "win7_sp1_enx86_office2013"
+            ]
+        },
+        "multiengines": {
+            "result": {
+                "IKARUS": "safe",
+                "Tencent": "safe",
+                "vbwebshell": "safe",
+                "Avast": "safe",
+                "Avira": "safe",
+                "Sophos": "safe",
+                "Kaiwei": "safe",
+                "K7": "Riskware ( 0040eff71 )",
+                "Rising": "safe",
+                "Kaspersky": "safe",
+                "Panda": "safe",
+                "Baidu-China": "safe",
+                "NANO": "safe",
+                "Antiy": "safe",
+                "AVG": "safe",
+                "Baidu": "safe",
+                "DrWeb": "safe",
+                "GDATA": "safe",
+                "Microsoft": "safe",
+                "Kingsoft": "safe",
+                "Qihu360": "safe",
+                "ESET": "safe",
+                "ClamAV": "safe",
+                "JiangMin": "safe",
+                "Trustlook": "safe"
+            },
+            "scan_time": "2019-08-12 10:39:23",
+            "detect_rate": "1/25"
+        }
+    },
+    "response_code": 0,
+    "verbose_msg": "OK"
+}

@@ -1,0 +1,640 @@
+{
+    "data": {
+        "summary": {
+            "sha1": "70226ddfd8b9681f17ed23630238cd98ef97c8d6",
+            "md5": "694a24dbff510a2cf56541eb24a55319",
+            "tag": {
+                "s": [
+                    "encrypt_algorithm",
+                    "PE32",
+                    "lang_neutral"
+                ],
+                "x": [
+                    "",
+                    ""
+                ]
+            },
+            "threat_level": "clean",
+            "submit_time": "2019-01-17 17:51:27",
+            "file_name": "GetADUsers.exe",
+            "file_type": "EXEx86",
+            "sample_sha256": "8ef97fe6ee4576edf7eb04f6191091c2c9f75457f602bb9a051c5a7c4b67bbda",
+            "threat_score": 10,
+            "sandbox_type": "win7_sp1_enx64_office2013",
+            "multi_engines": "1/24",
+            "file_size": 7554023,
+            "is_whitelist": false,
+            "malware_type": "",
+            "malware_family": "",
+            "sandbox_type_list": [
+                "win7_sp1_enx86_office2013",
+                "win7_sp1_enx86_office2013_sp1"
+            ]
+        },
+        "multiengines": {
+            "result": {
+                "IKARUS": "safe",
+                "Tencent": "safe",
+                "vbwebshell": "safe",
+                "Avast": "safe",
+                "Avira": "safe",
+                "Sophos": "safe",
+                "Kaiwei": "safe",
+                "K7": "Riskware ( 0040eff71 )",
+                "Rising": "safe",
+                "Kaspersky": "safe",
+                "Panda": "safe",
+                "Baidu-China": "safe",
+                "NANO": "safe",
+                "Antiy": "safe",
+                "AVG": "safe",
+                "Baidu": "safe",
+                "DrWeb": "safe",
+                "GDATA": "safe",
+                "Microsoft": "safe",
+                "Kingsoft": "safe",
+                "Qihu360": "safe",
+                "ESET": "safe",
+                "ClamAV": "safe",
+                "JiangMin": "safe",
+                "Trustlook": "safe"
+            },
+            "scan_time": "2018-08-01 01:49:15",
+            "detect_rate": "1/25"
+        },
+        "static": {
+            "details": {
+                "pe_version_info": [],
+                "pe_sections": [
+                    {
+                        "pointer_to_rawdata": "0x00000400",
+                        "name": ".text",
+                        "virtual_address": "0x00001000",
+                        "size_of_data": "0x0001f200",
+                        "entropy": 6.66102899512038,
+                        "SectionPermission": "R-E",
+                        "virtual_size": "0x0001f144"
+                    },
+                    {
+                        "pointer_to_rawdata": "0x0001f600",
+                        "name": ".rdata",
+                        "virtual_address": "0x00021000",
+                        "size_of_data": "0x0000b200",
+                        "entropy": 6.085595970400807,
+                        "SectionPermission": "R--",
+                        "virtual_size": "0x0000b06c"
+                    },
+                    {
+                        "pointer_to_rawdata": "0x0002a800",
+                        "name": ".data",
+                        "virtual_address": "0x0002d000",
+                        "size_of_data": "0x00000a00",
+                        "entropy": 1.9345126517772695,
+                        "SectionPermission": "RW-",
+                        "virtual_size": "0x0000e678"
+                    },
+                    {
+                        "pointer_to_rawdata": "0x0002b200",
+                        "name": ".gfids",
+                        "virtual_address": "0x0003c000",
+                        "size_of_data": "0x00000200",
+                        "entropy": 1.8561345723308587,
+                        "SectionPermission": "R--",
+                        "virtual_size": "0x000000b8"
+                    },
+                    {
+                        "pointer_to_rawdata": "0x0002b400",
+                        "name": ".rsrc",
+                        "virtual_address": "0x0003d000",
+                        "size_of_data": "0x0005ae00",
+                        "entropy": 4.548848881319088,
+                        "SectionPermission": "R--",
+                        "virtual_size": "0x0005ac4c"
+                    },
+                    {
+                        "pointer_to_rawdata": "0x00086200",
+                        "name": ".reloc",
+                        "virtual_address": "0x00098000",
+                        "size_of_data": "0x00001800",
+                        "entropy": 6.63610290599414,
+                        "SectionPermission": "R--",
+                        "virtual_size": "0x000017b8"
+                    }
+                ],
+                "pe_signatures": {},
+                "pe_imports": [
+                    {
+                        "imports": [
+                            {
+                                "name": "GetLastError",
+                                "address": "0x421000"
+                            },
+                            {
+                                "name": "SetDllDirectoryW",
+                                "address": "0x421004"
+                            },
+                            {
+                                "name": "GetModuleFileNameW",
+                                "address": "0x421008"
+                            },
+                            {
+                                "name": "GetProcAddress",
+                                "address": "0x42100c"
+                            },
+                            {
+                                "name": "GetCommandLineW",
+                                "address": "0x421010"
+                            },
+                            {
+                                "name": "GetEnvironmentVariableW",
+                                "address": "0x421014"
+                            },
+                            {
+                                "name": "SetEnvironmentVariableW",
+                                "address": "0x421018"
+                            },
+                            {
+                                "name": "ExpandEnvironmentStringsW",
+                                "address": "0x42101c"
+                            },
+                            {
+                                "name": "GetTempPathW",
+                                "address": "0x421020"
+                            },
+                            {
+                                "name": "WaitForSingleObject",
+                                "address": "0x421024"
+                            },
+                            {
+                                "name": "Sleep",
+                                "address": "0x421028"
+                            },
+                            {
+                                "name": "GetExitCodeProcess",
+                                "address": "0x42102c"
+                            },
+                            {
+                                "name": "CreateProcessW",
+                                "address": "0x421030"
+                            },
+                            {
+                                "name": "GetStartupInfoW",
+                                "address": "0x421034"
+                            },
+                            {
+                                "name": "LoadLibraryExW",
+                                "address": "0x421038"
+                            },
+                            {
+                                "name": "GetShortPathNameW",
+                                "address": "0x42103c"
+                            },
+                            {
+                                "name": "FormatMessageA",
+                                "address": "0x421040"
+                            },
+                            {
+                                "name": "LoadLibraryA",
+                                "address": "0x421044"
+                            },
+                            {
+                                "name": "MultiByteToWideChar",
+                                "address": "0x421048"
+                            },
+                            {
+                                "name": "WideCharToMultiByte",
+                                "address": "0x42104c"
+                            },
+                            {
+                                "name": "DecodePointer",
+                                "address": "0x421050"
+                            },
+                            {
+                                "name": "UnhandledExceptionFilter",
+                                "address": "0x421054"
+                            },
+                            {
+                                "name": "SetUnhandledExceptionFilter",
+                                "address": "0x421058"
+                            },
+                            {
+                                "name": "GetCurrentProcess",
+                                "address": "0x42105c"
+                            },
+                            {
+                                "name": "TerminateProcess",
+                                "address": "0x421060"
+                            },
+                            {
+                                "name": "IsProcessorFeaturePresent",
+                                "address": "0x421064"
+                            },
+                            {
+                                "name": "QueryPerformanceCounter",
+                                "address": "0x421068"
+                            },
+                            {
+                                "name": "GetCurrentProcessId",
+                                "address": "0x42106c"
+                            },
+                            {
+                                "name": "GetCurrentThreadId",
+                                "address": "0x421070"
+                            },
+                            {
+                                "name": "GetSystemTimeAsFileTime",
+                                "address": "0x421074"
+                            },
+                            {
+                                "name": "InitializeSListHead",
+                                "address": "0x421078"
+                            },
+                            {
+                                "name": "IsDebuggerPresent",
+                                "address": "0x42107c"
+                            },
+                            {
+                                "name": "GetModuleHandleW",
+                                "address": "0x421080"
+                            },
+                            {
+                                "name": "RtlUnwind",
+                                "address": "0x421084"
+                            },
+                            {
+                                "name": "SetLastError",
+                                "address": "0x421088"
+                            },
+                            {
+                                "name": "EnterCriticalSection",
+                                "address": "0x42108c"
+                            },
+                            {
+                                "name": "LeaveCriticalSection",
+                                "address": "0x421090"
+                            },
+                            {
+                                "name": "DeleteCriticalSection",
+                                "address": "0x421094"
+                            },
+                            {
+                                "name": "InitializeCriticalSectionAndSpinCount",
+                                "address": "0x421098"
+                            },
+                            {
+                                "name": "TlsAlloc",
+                                "address": "0x42109c"
+                            },
+                            {
+                                "name": "TlsGetValue",
+                                "address": "0x4210a0"
+                            },
+                            {
+                                "name": "TlsSetValue",
+                                "address": "0x4210a4"
+                            },
+                            {
+                                "name": "TlsFree",
+                                "address": "0x4210a8"
+                            },
+                            {
+                                "name": "FreeLibrary",
+                                "address": "0x4210ac"
+                            },
+                            {
+                                "name": "GetCommandLineA",
+                                "address": "0x4210b0"
+                            },
+                            {
+                                "name": "ReadFile",
+                                "address": "0x4210b4"
+                            },
+                            {
+                                "name": "CreateFileW",
+                                "address": "0x4210b8"
+                            },
+                            {
+                                "name": "GetDriveTypeW",
+                                "address": "0x4210bc"
+                            },
+                            {
+                                "name": "GetFileType",
+                                "address": "0x4210c0"
+                            },
+                            {
+                                "name": "CloseHandle",
+                                "address": "0x4210c4"
+                            },
+                            {
+                                "name": "PeekNamedPipe",
+                                "address": "0x4210c8"
+                            },
+                            {
+                                "name": "SystemTimeToTzSpecificLocalTime",
+                                "address": "0x4210cc"
+                            },
+                            {
+                                "name": "FileTimeToSystemTime",
+                                "address": "0x4210d0"
+                            },
+                            {
+                                "name": "GetFullPathNameW",
+                                "address": "0x4210d4"
+                            },
+                            {
+                                "name": "GetFullPathNameA",
+                                "address": "0x4210d8"
+                            },
+                            {
+                                "name": "CreateDirectoryW",
+                                "address": "0x4210dc"
+                            },
+                            {
+                                "name": "RemoveDirectoryW",
+                                "address": "0x4210e0"
+                            },
+                            {
+                                "name": "FindClose",
+                                "address": "0x4210e4"
+                            },
+                            {
+                                "name": "FindFirstFileExW",
+                                "address": "0x4210e8"
+                            },
+                            {
+                                "name": "FindNextFileW",
+                                "address": "0x4210ec"
+                            },
+                            {
+                                "name": "SetStdHandle",
+                                "address": "0x4210f0"
+                            },
+                            {
+                                "name": "SetConsoleCtrlHandler",
+                                "address": "0x4210f4"
+                            },
+                            {
+                                "name": "DeleteFileW",
+                                "address": "0x4210f8"
+                            },
+                            {
+                                "name": "GetStdHandle",
+                                "address": "0x4210fc"
+                            },
+                            {
+                                "name": "WriteFile",
+                                "address": "0x421100"
+                            },
+                            {
+                                "name": "ExitProcess",
+                                "address": "0x421104"
+                            },
+                            {
+                                "name": "GetModuleHandleExW",
+                                "address": "0x421108"
+                            },
+                            {
+                                "name": "GetACP",
+                                "address": "0x42110c"
+                            },
+                            {
+                                "name": "HeapFree",
+                                "address": "0x421110"
+                            },
+                            {
+                                "name": "HeapAlloc",
+                                "address": "0x421114"
+                            },
+                            {
+                                "name": "GetConsoleMode",
+                                "address": "0x421118"
+                            },
+                            {
+                                "name": "ReadConsoleW",
+                                "address": "0x42111c"
+                            },
+                            {
+                                "name": "SetFilePointerEx",
+                                "address": "0x421120"
+                            },
+                            {
+                                "name": "GetConsoleCP",
+                                "address": "0x421124"
+                            },
+                            {
+                                "name": "CompareStringW",
+                                "address": "0x421128"
+                            },
+                            {
+                                "name": "LCMapStringW",
+                                "address": "0x42112c"
+                            },
+                            {
+                                "name": "GetCurrentDirectoryW",
+                                "address": "0x421130"
+                            },
+                            {
+                                "name": "FlushFileBuffers",
+                                "address": "0x421134"
+                            },
+                            {
+                                "name": "SetEnvironmentVariableA",
+                                "address": "0x421138"
+                            },
+                            {
+                                "name": "GetFileAttributesExW",
+                                "address": "0x42113c"
+                            },
+                            {
+                                "name": "IsValidCodePage",
+                                "address": "0x421140"
+                            },
+                            {
+                                "name": "GetOEMCP",
+                                "address": "0x421144"
+                            },
+                            {
+                                "name": "GetCPInfo",
+                                "address": "0x421148"
+                            },
+                            {
+                                "name": "GetEnvironmentStringsW",
+                                "address": "0x42114c"
+                            },
+                            {
+                                "name": "FreeEnvironmentStringsW",
+                                "address": "0x421150"
+                            },
+                            {
+                                "name": "GetStringTypeW",
+                                "address": "0x421154"
+                            },
+                            {
+                                "name": "GetProcessHeap",
+                                "address": "0x421158"
+                            },
+                            {
+                                "name": "WriteConsoleW",
+                                "address": "0x42115c"
+                            },
+                            {
+                                "name": "GetTimeZoneInformation",
+                                "address": "0x421160"
+                            },
+                            {
+                                "name": "HeapSize",
+                                "address": "0x421164"
+                            },
+                            {
+                                "name": "HeapReAlloc",
+                                "address": "0x421168"
+                            },
+                            {
+                                "name": "SetEndOfFile",
+                                "address": "0x42116c"
+                            },
+                            {
+                                "name": "RaiseException",
+                                "address": "0x421170"
+                            }
+                        ],
+                        "dll": "KERNEL32.dll"
+                    },
+                    {
+                        "imports": [
+                            {
+                                "name": "ntohl",
+                                "address": "0x421178"
+                            }
+                        ],
+                        "dll": "WS2_32.dll"
+                    }
+                ],
+                "pe_resources": [
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097720",
+                        "size": "0x00000468"
+                    },
+                    {
+                        "name": "RT_GROUP_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "MS Windows icon resource - 7 icons, 48x48, 256-colors",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097be4",
+                        "size": "0x00000068"
+                    },
+                    {
+                        "name": "RT_GROUP_ICON",
+                        "language": "LANG_NEUTRAL",
+                        "filetype": "MS Windows icon resource - 7 icons, 48x48, 256-colors",
+                        "sublanguage": "SUBLANG_NEUTRAL",
+                        "offset": "0x00097be4",
+                        "size": "0x00000068"
+                    }
+                ],
+                "tag": [
+                    "encrypt_algorithm",
+                    "PE32",
+                    "lang_neutral"
+                ],
+                "pe_detect": {
+                    "urls": [],
+                    "find_crypt": {
+                        "findcrypt": {
+                            "Looks for big numbers 20:sized": [
+                                "0x4eee19"
+                            ],
+                            "Look for CRC32 [poly]": [
+                                "0x21a68"
+                            ],
+                            "Look for CRC32 table": [
+                                "0x21868"
+                            ]
+                        },
+                        "tag": [
+                            "encrypt_algorithm"
+                        ]
+                    }
+                },
+                "pe_basic": {
+                    "tls_info": {},
+                    "import_hash": "fc40519af20116c903e3ff836e366e39",
+                    "peid": [
+                        "PE: compiler: Microsoft Visual C/C++(-)[-]",
+                        "PE: linker: Microsoft Linker(14.0)[EXE32,console]",
+                        "PE: overlay: zlib archive(-)[-]"
+                    ],
+                    "time_stamp": "2017-12-11 23:09:08",
+                    "entry_point_section": ".text",
+                    "overlay_size": 6998503,
+                    "image_base": "0x400000",
+                    "entry_point": "0x769a"
+                },
+                "pe_exports": []
+            },
+            "basic": {
+                "sha1": "70226ddfd8b9681f17ed23630238cd98ef97c8d6",
+                "sha256": "8ef97fe6ee4576edf7eb04f6191091c2c9f75457f602bb9a051c5a7c4b67bbda",
+                "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+                "file_name": "8ef97fe6ee4576edf7eb04f6191091c2c9f75457f602bb9a051c5a7c4b67bbda",
+                "ssdeep": "196608:C9OlX+aFF9MMDJZkyVzlPKQ8hY/DkzMWsD/W31+:C9OlrFF9MMDJuyVMHYgHsDu31",
+                "file_size": 7554023,
+                "md5": "694a24dbff510a2cf56541eb24a55319"
+            }
+        }
+    },
+    "response_code": 0,
+    "verbose_msg": "OK"
+}

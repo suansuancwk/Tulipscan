@@ -1,0 +1,7 @@
+{
+  "path_gz":"./gz/index.yar",
+  "path_yb": "./yangben",
+  "webshell_gz_qt": "./webshellgz/index.yar",
+  "webshell_lj": "./webshell",
+  "webshell_gz_php": "./webshellgz/php.yar"
+}

@@ -1,0 +1,62 @@
+{
+    "data": {
+        "summary": {
+            "sha1": "89ebc0990a44761c8d64448cd9369812ec3a2afb",
+            "md5": "80098164f65e325454ee34e301739b5c",
+            "tag": {
+                "s": [],
+                "x": [
+                    "",
+                    ""
+                ]
+            },
+            "threat_level": "clean",
+            "submit_time": "2019-08-12 10:39:47",
+            "file_name": "GetNPUsers.exe",
+            "file_type": "EXEx86",
+            "sample_sha256": "a99f07fbb9ad4c798bbf570e4c3fea33ab95e10479f204be18041ec07bd8cfff",
+            "threat_score": 0,
+            "sandbox_type": "win7_sp1_enx64_office2013",
+            "multi_engines": "3/24",
+            "is_whitelist": false,
+            "malware_type": "",
+            "malware_family": "",
+            "sandbox_type_list": [
+                "win7_sp1_enx86_office2013"
+            ]
+        },
+        "multiengines": {
+            "result": {
+                "IKARUS": "safe",
+                "Tencent": "safe",
+                "vbwebshell": "safe",
+                "Avast": "safe",
+                "Avira": "safe",
+                "Sophos": "Generic PUA IJ (PUA)",
+                "Kaiwei": "safe",
+                "K7": "Riskware ( 0040eff71 )",
+                "Rising": "safe",
+                "Kaspersky": "safe",
+                "Panda": "safe",
+                "Baidu-China": "safe",
+                "NANO": "safe",
+                "Antiy": "safe",
+                "AVG": "safe",
+                "Baidu": "safe",
+                "DrWeb": "safe",
+                "GDATA": "safe",
+                "Microsoft": "Trojan:Win32/Zpevdo.B",
+                "Kingsoft": "safe",
+                "Qihu360": "safe",
+                "ESET": "safe",
+                "ClamAV": "safe",
+                "JiangMin": "safe",
+                "Trustlook": "safe"
+            },
+            "scan_time": "2019-08-12 10:39:47",
+            "detect_rate": "3/25"
+        }
+    },
+    "response_code": 0,
+    "verbose_msg": "OK"
+}

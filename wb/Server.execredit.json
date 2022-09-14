@@ -1,0 +1,3146 @@
+{
+    "data": {
+        "summary": {
+            "sha1": "835254dc933cb7c6f427f53ff3ae6333fe1851f5",
+            "md5": "edb8f9131a170e6c005dc10f3354c4d0",
+            "tag": {
+                "s": [
+                    "exe",
+                    "capture_screen",
+                    "tls_callback",
+                    "lang_chinese",
+                    "modify_clipboard",
+                    "codesign"
+                ],
+                "x": [
+                    "Backdoor",
+                    "Farfli"
+                ]
+            },
+            "threat_level": "malicious",
+            "submit_time": "2022-06-02 15:05:04",
+            "file_name": "Server.exe",
+            "file_type": "EXEx86",
+            "sample_sha256": "13e405bd0cdccb96a9c834ed9bb93e637c84955a496885b8f8d0ee6e23317b92",
+            "threat_score": 70,
+            "sandbox_type": "win7_sp1_enx64_office2013",
+            "multi_engines": "10/22",
+            "file_size": 4684120,
+            "is_whitelist": false,
+            "malware_type": "Backdoor",
+            "malware_family": "Farfli",
+            "sandbox_type_list": [
+                "win7_sp1_enx86_office2013"
+            ]
+        },
+        "multiengines": {
+            "result": {
+                "IKARUS": "PUA.2345",
+                "vbwebshell": "safe",
+                "Avast": "Win32:BackdoorX-gen",
+                "Avira": "safe",
+                "Sophos": "safe",
+                "K7": "Riskware ( 00584baa1 )",
+                "Rising": "safe",
+                "Kaspersky": "Backdoor.Win32.Farfli.bxxk",
+                "Panda": "safe",
+                "Baidu-China": "safe",
+                "NANO": "safe",
+                "Antiy": "Trojan[Backdoor]/Win32.Farfli",
+                "AVG": "safe",
+                "Baidu": "safe",
+                "DrWeb": "safe",
+                "GDATA": "Gen:Variant.Ransom.702",
+                "Microsoft": "Backdoor:Win32/Farfli.VM!MTB",
+                "Qihu360": "Win32/Backdoor.Farfli.HgIASskA",
+                "ESET": "a variant of Win32/GenKryptik.FUDB trojan",
+                "ClamAV": "safe",
+                "JiangMin": "Backdoor.Farfli.ftc",
+                "Trustlook": "safe"
+            },
+            "scan_time": "2022-06-14 14:37:57",
+            "detect_rate": "10/22"
+        },
+        "static": {
+            "details": {
+                "pe_version_info": [
+                    {
+                        "name": "Comments",
+                        "value": "http://www.2345.com"
+                    },
+                    {
+                        "name": "CompanyName",
+                        "value": "2345.cc"
+                    },
+                    {
+                        "name": "FileDescription",
+                        "value": "2345安全卫士-主程序"
+                    },
+                    {
+                        "name": "FileVersion",
+                        "value": "7.3.0.13721"
+                    },
+                    {
+                        "name": "InternalName",
+                        "value": "2345MPCSafe"
+                    },
+                    {
+                        "name": "LegalCopyright",
+                        "value": "版权所有 (c) 2021，2345.cc"
+                    },
+                    {
+                        "name": "OriginalFilename",
+                        "value": "2345MPCSafe.exe"
+                    },
+                    {
+                        "name": "ProductName",
+                        "value": "2345安全卫士"
+                    },
+                    {
+                        "name": "ProductVersion",
+                        "value": "7.3.0"
+                    },
+                    {
+                        "name": "Translation",
+                        "value": "0x0804 0x04b0"
+                    }
+                ],
+                "pe_sections": [
+                    {
+                        "name": ".text",
+                        "virtual_address": "0x00001000",
+                        "virtual_size": "0x0036e260",
+                        "size_of_data": "0x0036e400",
+                        "pointer_to_rawdata": "0x00000400",
+                        "hash": "06c5a9ac1031aa52c33372c2e4b5897b",
+                        "SectionPermission": "R-E",
+                        "entropy": 6.2231119075277235
+                    },
+                    {
+                        "name": ".rdata",
+                        "virtual_address": "0x00370000",
+                        "virtual_size": "0x000742f2",
+                        "size_of_data": "0x00074400",
+                        "pointer_to_rawdata": "0x0036e800",
+                        "hash": "dfb186b9582158187fcf03ceb3978983",
+                        "SectionPermission": "R--",
+                        "entropy": 5.139137835947996
+                    },
+                    {
+                        "name": ".data",
+                        "virtual_address": "0x003e5000",
+                        "virtual_size": "0x00052f7c",
+                        "size_of_data": "0x0004be00",
+                        "pointer_to_rawdata": "0x003e2c00",
+                        "hash": "0c7d61920fe83dfab6c0d3da8ab8e14f",
+                        "SectionPermission": "RW-",
+                        "entropy": 2.512749008914556
+                    },
+                    {
+                        "name": ".rsrc",
+                        "virtual_address": "0x00438000",
+                        "virtual_size": "0x00014000",
+                        "size_of_data": "0x00013c00",
+                        "pointer_to_rawdata": "0x0042ea00",
+                        "hash": "7adf33522bebf07ea5d07fbf5ce32612",
+                        "SectionPermission": "R--",
+                        "entropy": 6.122981821279714
+                    },
+                    {
+                        "name": ".reloc",
+                        "virtual_address": "0x0044c000",
+                        "virtual_size": "0x000319b4",
+                        "size_of_data": "0x00031a00",
+                        "pointer_to_rawdata": "0x00442600",
+                        "hash": "bcc6b681dbc32da7325255d584ccf234",
+                        "SectionPermission": "R--",
+                        "entropy": 6.582628123860023
+                    }
+                ],
+                "pe_signatures": {
+                    "CA1": {
+                        "singers": {
+                            "\"Shanghai 2345 Mobile Technology Co.": {
+                                "Cert Issuer": "DigiCert EV Code Signing CA (SHA2)",
+                                "Serial Number": "05 AA 43 30 0D 17 67 AC 12 49 43 54 21 65 BB 9E",
+                                "Valid from": "08:00 2020-05-19",
+                                "Valid to": "20:00 2023-05-18",
+                                "Thumbprint": "168E5122282FC815EC84BE96207B51965E829E4E",
+                                "Cert Status": "HashMismatch"
+                            }
+                        },
+                        "counter_singers": {
+                            "DigiCert Timestamp 2021": {
+                                "Cert Issuer": "DigiCert SHA2 Assured ID Timestamping CA",
+                                "Serial Number": "0D 42 4A E0 BE 3A 88 FF 60 40 21 CE 14 00 F0 DD",
+                                "Valid from": "08:00 2021-01-01",
+                                "Valid to": "08:00 2031-01-06",
+                                "Thumbprint": "E1D782A8E191BEEF6BCA1691B5AAB494A6249BF3",
+                                "Cert Status": "HashMismatch"
+                            }
+                        }
+                    },
+                    "verified": "HashMismatch"
+                },
+                "pe_imports": [
+                    {
+                        "dll": "KERNEL32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770220",
+                                "name": "RtlUnwind"
+                            },
+                            {
+                                "address": "0x770224",
+                                "name": "GetModuleHandleExW"
+                            },
+                            {
+                                "address": "0x770228",
+                                "name": "ExitProcess"
+                            },
+                            {
+                                "address": "0x77022c",
+                                "name": "HeapValidate"
+                            },
+                            {
+                                "address": "0x770230",
+                                "name": "SetStdHandle"
+                            },
+                            {
+                                "address": "0x770234",
+                                "name": "GetFileType"
+                            },
+                            {
+                                "address": "0x770238",
+                                "name": "ExitThread"
+                            },
+                            {
+                                "address": "0x77023c",
+                                "name": "FreeLibraryAndExitThread"
+                            },
+                            {
+                                "address": "0x770240",
+                                "name": "GetCommandLineA"
+                            },
+                            {
+                                "address": "0x770244",
+                                "name": "GetCommandLineW"
+                            },
+                            {
+                                "address": "0x770248",
+                                "name": "HeapQueryInformation"
+                            },
+                            {
+                                "address": "0x77024c",
+                                "name": "GetStdHandle"
+                            },
+                            {
+                                "address": "0x770250",
+                                "name": "WriteConsoleW"
+                            },
+                            {
+                                "address": "0x770254",
+                                "name": "QueryPerformanceFrequency"
+                            },
+                            {
+                                "address": "0x770258",
+                                "name": "GetStringTypeW"
+                            },
+                            {
+                                "address": "0x77025c",
+                                "name": "CompareStringW"
+                            },
+                            {
+                                "address": "0x770260",
+                                "name": "LCMapStringW"
+                            },
+                            {
+                                "address": "0x770264",
+                                "name": "GetConsoleCP"
+                            },
+                            {
+                                "address": "0x770268",
+                                "name": "GetConsoleMode"
+                            },
+                            {
+                                "address": "0x77026c",
+                                "name": "ReadConsoleW"
+                            },
+                            {
+                                "address": "0x770270",
+                                "name": "SetFilePointerEx"
+                            },
+                            {
+                                "address": "0x770274",
+                                "name": "GetTimeZoneInformation"
+                            },
+                            {
+                                "address": "0x770278",
+                                "name": "FindFirstFileExA"
+                            },
+                            {
+                                "address": "0x77027c",
+                                "name": "FindNextFileA"
+                            },
+                            {
+                                "address": "0x770280",
+                                "name": "IsValidCodePage"
+                            },
+                            {
+                                "address": "0x770284",
+                                "name": "GetEnvironmentStringsW"
+                            },
+                            {
+                                "address": "0x770288",
+                                "name": "FreeEnvironmentStringsW"
+                            },
+                            {
+                                "address": "0x77028c",
+                                "name": "SetEnvironmentVariableA"
+                            },
+                            {
+                                "address": "0x770290",
+                                "name": "VirtualQuery"
+                            },
+                            {
+                                "address": "0x770294",
+                                "name": "InitializeSListHead"
+                            },
+                            {
+                                "address": "0x770298",
+                                "name": "GetSystemTimeAsFileTime"
+                            },
+                            {
+                                "address": "0x77029c",
+                                "name": "QueryPerformanceCounter"
+                            },
+                            {
+                                "address": "0x7702a0",
+                                "name": "GetStartupInfoW"
+                            },
+                            {
+                                "address": "0x7702a4",
+                                "name": "IsDebuggerPresent"
+                            },
+                            {
+                                "address": "0x7702a8",
+                                "name": "IsProcessorFeaturePresent"
+                            },
+                            {
+                                "address": "0x7702ac",
+                                "name": "TerminateProcess"
+                            },
+                            {
+                                "address": "0x7702b0",
+                                "name": "SetUnhandledExceptionFilter"
+                            },
+                            {
+                                "address": "0x7702b4",
+                                "name": "OutputDebugStringW"
+                            },
+                            {
+                                "address": "0x7702b8",
+                                "name": "CreateEventW"
+                            },
+                            {
+                                "address": "0x7702bc",
+                                "name": "WaitForSingleObjectEx"
+                            },
+                            {
+                                "address": "0x7702c0",
+                                "name": "Sleep"
+                            },
+                            {
+                                "address": "0x7702c4",
+                                "name": "SearchPathA"
+                            },
+                            {
+                                "address": "0x7702c8",
+                                "name": "ResetEvent"
+                            },
+                            {
+                                "address": "0x7702cc",
+                                "name": "GetTempPathA"
+                            },
+                            {
+                                "address": "0x7702d0",
+                                "name": "VerifyVersionInfoA"
+                            },
+                            {
+                                "address": "0x7702d4",
+                                "name": "VerSetConditionMask"
+                            },
+                            {
+                                "address": "0x7702d8",
+                                "name": "GetTickCount"
+                            },
+                            {
+                                "address": "0x7702dc",
+                                "name": "GetWindowsDirectoryA"
+                            },
+                            {
+                                "address": "0x7702e0",
+                                "name": "lstrcpyA"
+                            },
+                            {
+                                "address": "0x7702e4",
+                                "name": "FindResourceExW"
+                            },
+                            {
+                                "address": "0x7702e8",
+                                "name": "GetCurrentDirectoryA"
+                            },
+                            {
+                                "address": "0x7702ec",
+                                "name": "GetACP"
+                            },
+                            {
+                                "address": "0x7702f0",
+                                "name": "FileTimeToSystemTime"
+                            },
+                            {
+                                "address": "0x7702f4",
+                                "name": "SystemTimeToTzSpecificLocalTime"
+                            },
+                            {
+                                "address": "0x7702f8",
+                                "name": "LocalFileTimeToFileTime"
+                            },
+                            {
+                                "address": "0x7702fc",
+                                "name": "GetFileSizeEx"
+                            },
+                            {
+                                "address": "0x770300",
+                                "name": "GetFileAttributesExA"
+                            },
+                            {
+                                "address": "0x770304",
+                                "name": "FileTimeToLocalFileTime"
+                            },
+                            {
+                                "address": "0x770308",
+                                "name": "GetVolumeInformationA"
+                            },
+                            {
+                                "address": "0x77030c",
+                                "name": "MoveFileA"
+                            },
+                            {
+                                "address": "0x770310",
+                                "name": "lstrcmpiA"
+                            },
+                            {
+                                "address": "0x770314",
+                                "name": "GetCurrentProcess"
+                            },
+                            {
+                                "address": "0x770318",
+                                "name": "GetHandleInformation"
+                            },
+                            {
+                                "address": "0x77031c",
+                                "name": "DuplicateHandle"
+                            },
+                            {
+                                "address": "0x770320",
+                                "name": "WriteFile"
+                            },
+                            {
+                                "address": "0x770324",
+                                "name": "UnlockFile"
+                            },
+                            {
+                                "address": "0x770328",
+                                "name": "SetFilePointer"
+                            },
+                            {
+                                "address": "0x77032c",
+                                "name": "SetEndOfFile"
+                            },
+                            {
+                                "address": "0x770330",
+                                "name": "ReadFile"
+                            },
+                            {
+                                "address": "0x770334",
+                                "name": "LockFile"
+                            },
+                            {
+                                "address": "0x770338",
+                                "name": "GetFileSize"
+                            },
+                            {
+                                "address": "0x77033c",
+                                "name": "FlushFileBuffers"
+                            },
+                            {
+                                "address": "0x770340",
+                                "name": "FindFirstFileA"
+                            },
+                            {
+                                "address": "0x770344",
+                                "name": "FindClose"
+                            },
+                            {
+                                "address": "0x770348",
+                                "name": "DeleteFileA"
+                            },
+                            {
+                                "address": "0x77034c",
+                                "name": "CreateFileA"
+                            },
+                            {
+                                "address": "0x770350",
+                                "name": "UnhandledExceptionFilter"
+                            },
+                            {
+                                "address": "0x770354",
+                                "name": "GetOEMCP"
+                            },
+                            {
+                                "address": "0x770358",
+                                "name": "GetUserDefaultUILanguage"
+                            },
+                            {
+                                "address": "0x77035c",
+                                "name": "GetSystemDefaultUILanguage"
+                            },
+                            {
+                                "address": "0x770360",
+                                "name": "GetLocaleInfoW"
+                            },
+                            {
+                                "address": "0x770364",
+                                "name": "LocalReAlloc"
+                            },
+                            {
+                                "address": "0x770368",
+                                "name": "LocalAlloc"
+                            },
+                            {
+                                "address": "0x77036c",
+                                "name": "GlobalHandle"
+                            },
+                            {
+                                "address": "0x770370",
+                                "name": "GlobalReAlloc"
+                            },
+                            {
+                                "address": "0x770374",
+                                "name": "TlsFree"
+                            },
+                            {
+                                "address": "0x770378",
+                                "name": "TlsSetValue"
+                            },
+                            {
+                                "address": "0x77037c",
+                                "name": "TlsGetValue"
+                            },
+                            {
+                                "address": "0x770380",
+                                "name": "TlsAlloc"
+                            },
+                            {
+                                "address": "0x770384",
+                                "name": "SetErrorMode"
+                            },
+                            {
+                                "address": "0x770388",
+                                "name": "LeaveCriticalSection"
+                            },
+                            {
+                                "address": "0x77038c",
+                                "name": "EnterCriticalSection"
+                            },
+                            {
+                                "address": "0x770390",
+                                "name": "InitializeCriticalSection"
+                            },
+                            {
+                                "address": "0x770394",
+                                "name": "GlobalFlags"
+                            },
+                            {
+                                "address": "0x770398",
+                                "name": "GetProfileIntA"
+                            },
+                            {
+                                "address": "0x77039c",
+                                "name": "GetAtomNameA"
+                            },
+                            {
+                                "address": "0x7703a0",
+                                "name": "CopyFileA"
+                            },
+                            {
+                                "address": "0x7703a4",
+                                "name": "FormatMessageA"
+                            },
+                            {
+                                "address": "0x7703a8",
+                                "name": "LocalFree"
+                            },
+                            {
+                                "address": "0x7703ac",
+                                "name": "GlobalSize"
+                            },
+                            {
+                                "address": "0x7703b0",
+                                "name": "MulDiv"
+                            },
+                            {
+                                "address": "0x7703b4",
+                                "name": "SystemTimeToFileTime"
+                            },
+                            {
+                                "address": "0x7703b8",
+                                "name": "ReplaceFileA"
+                            },
+                            {
+                                "address": "0x7703bc",
+                                "name": "GetTempFileNameA"
+                            },
+                            {
+                                "address": "0x7703c0",
+                                "name": "SetFileTime"
+                            },
+                            {
+                                "address": "0x7703c4",
+                                "name": "GetFullPathNameA"
+                            },
+                            {
+                                "address": "0x7703c8",
+                                "name": "GetFileTime"
+                            },
+                            {
+                                "address": "0x7703cc",
+                                "name": "GetFileAttributesA"
+                            },
+                            {
+                                "address": "0x7703d0",
+                                "name": "GetDiskFreeSpaceA"
+                            },
+                            {
+                                "address": "0x7703d4",
+                                "name": "WritePrivateProfileStringA"
+                            },
+                            {
+                                "address": "0x7703d8",
+                                "name": "GetPrivateProfileStringA"
+                            },
+                            {
+                                "address": "0x7703dc",
+                                "name": "GetPrivateProfileIntA"
+                            },
+                            {
+                                "address": "0x7703e0",
+                                "name": "lstrcmpA"
+                            },
+                            {
+                                "address": "0x7703e4",
+                                "name": "GlobalAlloc"
+                            },
+                            {
+                                "address": "0x7703e8",
+                                "name": "GetModuleFileNameA"
+                            },
+                            {
+                                "address": "0x7703ec",
+                                "name": "GetVersionExA"
+                            },
+                            {
+                                "address": "0x7703f0",
+                                "name": "GetCurrentThread"
+                            },
+                            {
+                                "address": "0x7703f4",
+                                "name": "WaitForSingleObject"
+                            },
+                            {
+                                "address": "0x7703f8",
+                                "name": "SetEvent"
+                            },
+                            {
+                                "address": "0x7703fc",
+                                "name": "CloseHandle"
+                            },
+                            {
+                                "address": "0x770400",
+                                "name": "GlobalFree"
+                            },
+                            {
+                                "address": "0x770404",
+                                "name": "GlobalUnlock"
+                            },
+                            {
+                                "address": "0x770408",
+                                "name": "GlobalLock"
+                            },
+                            {
+                                "address": "0x77040c",
+                                "name": "GetCurrentProcessId"
+                            },
+                            {
+                                "address": "0x770410",
+                                "name": "ResumeThread"
+                            },
+                            {
+                                "address": "0x770414",
+                                "name": "SetThreadPriority"
+                            },
+                            {
+                                "address": "0x770418",
+                                "name": "CompareStringA"
+                            },
+                            {
+                                "address": "0x77041c",
+                                "name": "GlobalGetAtomNameA"
+                            },
+                            {
+                                "address": "0x770420",
+                                "name": "GlobalFindAtomA"
+                            },
+                            {
+                                "address": "0x770424",
+                                "name": "GlobalAddAtomA"
+                            },
+                            {
+                                "address": "0x770428",
+                                "name": "FindResourceA"
+                            },
+                            {
+                                "address": "0x77042c",
+                                "name": "lstrcmpW"
+                            },
+                            {
+                                "address": "0x770430",
+                                "name": "GlobalDeleteAtom"
+                            },
+                            {
+                                "address": "0x770434",
+                                "name": "LoadLibraryW"
+                            },
+                            {
+                                "address": "0x770438",
+                                "name": "LoadLibraryExW"
+                            },
+                            {
+                                "address": "0x77043c",
+                                "name": "GetModuleHandleW"
+                            },
+                            {
+                                "address": "0x770440",
+                                "name": "GetModuleHandleA"
+                            },
+                            {
+                                "address": "0x770444",
+                                "name": "GetModuleFileNameW"
+                            },
+                            {
+                                "address": "0x770448",
+                                "name": "FreeResource"
+                            },
+                            {
+                                "address": "0x77044c",
+                                "name": "GetSystemDirectoryW"
+                            },
+                            {
+                                "address": "0x770450",
+                                "name": "GetCurrentThreadId"
+                            },
+                            {
+                                "address": "0x770454",
+                                "name": "EncodePointer"
+                            },
+                            {
+                                "address": "0x770458",
+                                "name": "OutputDebugStringA"
+                            },
+                            {
+                                "address": "0x77045c",
+                                "name": "WideCharToMultiByte"
+                            },
+                            {
+                                "address": "0x770460",
+                                "name": "FindResourceW"
+                            },
+                            {
+                                "address": "0x770464",
+                                "name": "SizeofResource"
+                            },
+                            {
+                                "address": "0x770468",
+                                "name": "LockResource"
+                            },
+                            {
+                                "address": "0x77046c",
+                                "name": "LoadResource"
+                            },
+                            {
+                                "address": "0x770470",
+                                "name": "DeleteCriticalSection"
+                            },
+                            {
+                                "address": "0x770474",
+                                "name": "InitializeCriticalSectionAndSpinCount"
+                            },
+                            {
+                                "address": "0x770478",
+                                "name": "RaiseException"
+                            },
+                            {
+                                "address": "0x77047c",
+                                "name": "HeapSize"
+                            },
+                            {
+                                "address": "0x770480",
+                                "name": "HeapReAlloc"
+                            },
+                            {
+                                "address": "0x770484",
+                                "name": "DecodePointer"
+                            },
+                            {
+                                "address": "0x770488",
+                                "name": "InterlockedDecrement"
+                            },
+                            {
+                                "address": "0x77048c",
+                                "name": "InterlockedIncrement"
+                            },
+                            {
+                                "address": "0x770490",
+                                "name": "GetLastError"
+                            },
+                            {
+                                "address": "0x770494",
+                                "name": "GetSystemInfo"
+                            },
+                            {
+                                "address": "0x770498",
+                                "name": "CreateThread"
+                            },
+                            {
+                                "address": "0x77049c",
+                                "name": "GlobalMemoryStatusEx"
+                            },
+                            {
+                                "address": "0x7704a0",
+                                "name": "GetThreadLocale"
+                            },
+                            {
+                                "address": "0x7704a4",
+                                "name": "IsBadReadPtr"
+                            },
+                            {
+                                "address": "0x7704a8",
+                                "name": "LoadLibraryA"
+                            },
+                            {
+                                "address": "0x7704ac",
+                                "name": "lstrlenA"
+                            },
+                            {
+                                "address": "0x7704b0",
+                                "name": "GetProcessHeap"
+                            },
+                            {
+                                "address": "0x7704b4",
+                                "name": "HeapFree"
+                            },
+                            {
+                                "address": "0x7704b8",
+                                "name": "HeapAlloc"
+                            },
+                            {
+                                "address": "0x7704bc",
+                                "name": "VirtualProtect"
+                            },
+                            {
+                                "address": "0x7704c0",
+                                "name": "VirtualFree"
+                            },
+                            {
+                                "address": "0x7704c4",
+                                "name": "VirtualAlloc"
+                            },
+                            {
+                                "address": "0x7704c8",
+                                "name": "GetProcAddress"
+                            },
+                            {
+                                "address": "0x7704cc",
+                                "name": "FreeLibrary"
+                            },
+                            {
+                                "address": "0x7704d0",
+                                "name": "MultiByteToWideChar"
+                            },
+                            {
+                                "address": "0x7704d4",
+                                "name": "SetLastError"
+                            },
+                            {
+                                "address": "0x7704d8",
+                                "name": "GetCPInfo"
+                            },
+                            {
+                                "address": "0x7704dc",
+                                "name": "CreateFileW"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "USER32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770588",
+                                "name": "LoadMenuW"
+                            },
+                            {
+                                "address": "0x77058c",
+                                "name": "DrawFrameControl"
+                            },
+                            {
+                                "address": "0x770590",
+                                "name": "DrawEdge"
+                            },
+                            {
+                                "address": "0x770594",
+                                "name": "RemoveMenu"
+                            },
+                            {
+                                "address": "0x770598",
+                                "name": "AppendMenuA"
+                            },
+                            {
+                                "address": "0x77059c",
+                                "name": "InsertMenuA"
+                            },
+                            {
+                                "address": "0x7705a0",
+                                "name": "GetMenuState"
+                            },
+                            {
+                                "address": "0x7705a4",
+                                "name": "GetMenuStringA"
+                            },
+                            {
+                                "address": "0x7705a8",
+                                "name": "DestroyCursor"
+                            },
+                            {
+                                "address": "0x7705ac",
+                                "name": "FillRect"
+                            },
+                            {
+                                "address": "0x7705b0",
+                                "name": "SetRect"
+                            },
+                            {
+                                "address": "0x7705b4",
+                                "name": "GetCursorPos"
+                            },
+                            {
+                                "address": "0x7705b8",
+                                "name": "TranslateMessage"
+                            },
+                            {
+                                "address": "0x7705bc",
+                                "name": "GetMessageA"
+                            },
+                            {
+                                "address": "0x7705c0",
+                                "name": "EndDialog"
+                            },
+                            {
+                                "address": "0x7705c4",
+                                "name": "CreateDialogIndirectParamA"
+                            },
+                            {
+                                "address": "0x7705c8",
+                                "name": "GetSystemMetrics"
+                            },
+                            {
+                                "address": "0x7705cc",
+                                "name": "SystemParametersInfoA"
+                            },
+                            {
+                                "address": "0x7705d0",
+                                "name": "IsRectEmpty"
+                            },
+                            {
+                                "address": "0x7705d4",
+                                "name": "TranslateMDISysAccel"
+                            },
+                            {
+                                "address": "0x7705d8",
+                                "name": "DefMDIChildProcA"
+                            },
+                            {
+                                "address": "0x7705dc",
+                                "name": "DefFrameProcA"
+                            },
+                            {
+                                "address": "0x7705e0",
+                                "name": "GetMenuItemID"
+                            },
+                            {
+                                "address": "0x7705e4",
+                                "name": "ReuseDDElParam"
+                            },
+                            {
+                                "address": "0x7705e8",
+                                "name": "UnpackDDElParam"
+                            },
+                            {
+                                "address": "0x7705ec",
+                                "name": "LoadImageA"
+                            },
+                            {
+                                "address": "0x7705f0",
+                                "name": "DestroyIcon"
+                            },
+                            {
+                                "address": "0x7705f4",
+                                "name": "GetWindowThreadProcessId"
+                            },
+                            {
+                                "address": "0x7705f8",
+                                "name": "OffsetRect"
+                            },
+                            {
+                                "address": "0x7705fc",
+                                "name": "IntersectRect"
+                            },
+                            {
+                                "address": "0x770600",
+                                "name": "SetRectEmpty"
+                            },
+                            {
+                                "address": "0x770604",
+                                "name": "SetCursor"
+                            },
+                            {
+                                "address": "0x770608",
+                                "name": "GetMenuItemCount"
+                            },
+                            {
+                                "address": "0x77060c",
+                                "name": "GetSubMenu"
+                            },
+                            {
+                                "address": "0x770610",
+                                "name": "DestroyMenu"
+                            },
+                            {
+                                "address": "0x770614",
+                                "name": "LoadMenuA"
+                            },
+                            {
+                                "address": "0x770618",
+                                "name": "TranslateAcceleratorA"
+                            },
+                            {
+                                "address": "0x77061c",
+                                "name": "LoadAcceleratorsA"
+                            },
+                            {
+                                "address": "0x770620",
+                                "name": "ReleaseCapture"
+                            },
+                            {
+                                "address": "0x770624",
+                                "name": "IsDialogMessageA"
+                            },
+                            {
+                                "address": "0x770628",
+                                "name": "SetWindowTextA"
+                            },
+                            {
+                                "address": "0x77062c",
+                                "name": "IsWindowEnabled"
+                            },
+                            {
+                                "address": "0x770630",
+                                "name": "SendDlgItemMessageA"
+                            },
+                            {
+                                "address": "0x770634",
+                                "name": "CheckDlgButton"
+                            },
+                            {
+                                "address": "0x770638",
+                                "name": "SetDlgItemTextA"
+                            },
+                            {
+                                "address": "0x77063c",
+                                "name": "MoveWindow"
+                            },
+                            {
+                                "address": "0x770640",
+                                "name": "ShowWindow"
+                            },
+                            {
+                                "address": "0x770644",
+                                "name": "NotifyWinEvent"
+                            },
+                            {
+                                "address": "0x770648",
+                                "name": "LoadCursorW"
+                            },
+                            {
+                                "address": "0x77064c",
+                                "name": "LoadCursorA"
+                            },
+                            {
+                                "address": "0x770650",
+                                "name": "GetLastActivePopup"
+                            },
+                            {
+                                "address": "0x770654",
+                                "name": "SetParent"
+                            },
+                            {
+                                "address": "0x770658",
+                                "name": "GetDesktopWindow"
+                            },
+                            {
+                                "address": "0x77065c",
+                                "name": "WindowFromPoint"
+                            },
+                            {
+                                "address": "0x770660",
+                                "name": "ClientToScreen"
+                            },
+                            {
+                                "address": "0x770664",
+                                "name": "HideCaret"
+                            },
+                            {
+                                "address": "0x770668",
+                                "name": "SetWindowContextHelpId"
+                            },
+                            {
+                                "address": "0x77066c",
+                                "name": "EnableScrollBar"
+                            },
+                            {
+                                "address": "0x770670",
+                                "name": "ShowScrollBar"
+                            },
+                            {
+                                "address": "0x770674",
+                                "name": "LockWindowUpdate"
+                            },
+                            {
+                                "address": "0x770678",
+                                "name": "RedrawWindow"
+                            },
+                            {
+                                "address": "0x77067c",
+                                "name": "InvalidateRgn"
+                            },
+                            {
+                                "address": "0x770680",
+                                "name": "ValidateRect"
+                            },
+                            {
+                                "address": "0x770684",
+                                "name": "InvalidateRect"
+                            },
+                            {
+                                "address": "0x770688",
+                                "name": "SetWindowRgn"
+                            },
+                            {
+                                "address": "0x77068c",
+                                "name": "GetUpdateRect"
+                            },
+                            {
+                                "address": "0x770690",
+                                "name": "ReleaseDC"
+                            },
+                            {
+                                "address": "0x770694",
+                                "name": "GetWindowDC"
+                            },
+                            {
+                                "address": "0x770698",
+                                "name": "GetDCEx"
+                            },
+                            {
+                                "address": "0x77069c",
+                                "name": "GetDC"
+                            },
+                            {
+                                "address": "0x7706a0",
+                                "name": "SetForegroundWindow"
+                            },
+                            {
+                                "address": "0x7706a4",
+                                "name": "GetForegroundWindow"
+                            },
+                            {
+                                "address": "0x7706a8",
+                                "name": "UpdateWindow"
+                            },
+                            {
+                                "address": "0x7706ac",
+                                "name": "GetSystemMenu"
+                            },
+                            {
+                                "address": "0x7706b0",
+                                "name": "DrawMenuBar"
+                            },
+                            {
+                                "address": "0x7706b4",
+                                "name": "EnableWindow"
+                            },
+                            {
+                                "address": "0x7706b8",
+                                "name": "FrameRect"
+                            },
+                            {
+                                "address": "0x7706bc",
+                                "name": "SetTimer"
+                            },
+                            {
+                                "address": "0x7706c0",
+                                "name": "SetCapture"
+                            },
+                            {
+                                "address": "0x7706c4",
+                                "name": "GetActiveWindow"
+                            },
+                            {
+                                "address": "0x7706c8",
+                                "name": "OpenClipboard"
+                            },
+                            {
+                                "address": "0x7706cc",
+                                "name": "GetNextDlgTabItem"
+                            },
+                            {
+                                "address": "0x7706d0",
+                                "name": "GetNextDlgGroupItem"
+                            },
+                            {
+                                "address": "0x7706d4",
+                                "name": "IsZoomed"
+                            },
+                            {
+                                "address": "0x7706d8",
+                                "name": "BringWindowToTop"
+                            },
+                            {
+                                "address": "0x7706dc",
+                                "name": "IsIconic"
+                            },
+                            {
+                                "address": "0x7706e0",
+                                "name": "IsWindowVisible"
+                            },
+                            {
+                                "address": "0x7706e4",
+                                "name": "ShowOwnedPopups"
+                            },
+                            {
+                                "address": "0x7706e8",
+                                "name": "PostThreadMessageA"
+                            },
+                            {
+                                "address": "0x7706ec",
+                                "name": "GetMonitorInfoA"
+                            },
+                            {
+                                "address": "0x7706f0",
+                                "name": "MonitorFromWindow"
+                            },
+                            {
+                                "address": "0x7706f4",
+                                "name": "WinHelpA"
+                            },
+                            {
+                                "address": "0x7706f8",
+                                "name": "GetScrollInfo"
+                            },
+                            {
+                                "address": "0x7706fc",
+                                "name": "SetScrollInfo"
+                            },
+                            {
+                                "address": "0x770700",
+                                "name": "LoadIconW"
+                            },
+                            {
+                                "address": "0x770704",
+                                "name": "LoadIconA"
+                            },
+                            {
+                                "address": "0x770708",
+                                "name": "CallNextHookEx"
+                            },
+                            {
+                                "address": "0x77070c",
+                                "name": "UnhookWindowsHookEx"
+                            },
+                            {
+                                "address": "0x770710",
+                                "name": "SetWindowsHookExA"
+                            },
+                            {
+                                "address": "0x770714",
+                                "name": "GetWindow"
+                            },
+                            {
+                                "address": "0x770718",
+                                "name": "GetTopWindow"
+                            },
+                            {
+                                "address": "0x77071c",
+                                "name": "GetClassNameA"
+                            },
+                            {
+                                "address": "0x770720",
+                                "name": "GetParent"
+                            },
+                            {
+                                "address": "0x770724",
+                                "name": "GetClassLongA"
+                            },
+                            {
+                                "address": "0x770728",
+                                "name": "SetWindowLongA"
+                            },
+                            {
+                                "address": "0x77072c",
+                                "name": "GetWindowLongA"
+                            },
+                            {
+                                "address": "0x770730",
+                                "name": "PtInRect"
+                            },
+                            {
+                                "address": "0x770734",
+                                "name": "EqualRect"
+                            },
+                            {
+                                "address": "0x770738",
+                                "name": "CopyRect"
+                            },
+                            {
+                                "address": "0x77073c",
+                                "name": "GetSysColor"
+                            },
+                            {
+                                "address": "0x770740",
+                                "name": "MapWindowPoints"
+                            },
+                            {
+                                "address": "0x770744",
+                                "name": "InvertRect"
+                            },
+                            {
+                                "address": "0x770748",
+                                "name": "InflateRect"
+                            },
+                            {
+                                "address": "0x77074c",
+                                "name": "PeekMessageA"
+                            },
+                            {
+                                "address": "0x770750",
+                                "name": "PostQuitMessage"
+                            },
+                            {
+                                "address": "0x770754",
+                                "name": "UnregisterClassA"
+                            },
+                            {
+                                "address": "0x770758",
+                                "name": "SendMessageA"
+                            },
+                            {
+                                "address": "0x77075c",
+                                "name": "PostMessageA"
+                            },
+                            {
+                                "address": "0x770760",
+                                "name": "ScreenToClient"
+                            },
+                            {
+                                "address": "0x770764",
+                                "name": "MessageBoxA"
+                            },
+                            {
+                                "address": "0x770768",
+                                "name": "AdjustWindowRectEx"
+                            },
+                            {
+                                "address": "0x77076c",
+                                "name": "GetWindowRect"
+                            },
+                            {
+                                "address": "0x770770",
+                                "name": "GetClientRect"
+                            },
+                            {
+                                "address": "0x770774",
+                                "name": "GetWindowTextLengthA"
+                            },
+                            {
+                                "address": "0x770778",
+                                "name": "GetWindowTextA"
+                            },
+                            {
+                                "address": "0x77077c",
+                                "name": "RemovePropA"
+                            },
+                            {
+                                "address": "0x770780",
+                                "name": "GetPropA"
+                            },
+                            {
+                                "address": "0x770784",
+                                "name": "SetPropA"
+                            },
+                            {
+                                "address": "0x770788",
+                                "name": "GetScrollRange"
+                            },
+                            {
+                                "address": "0x77078c",
+                                "name": "SetScrollRange"
+                            },
+                            {
+                                "address": "0x770790",
+                                "name": "GetScrollPos"
+                            },
+                            {
+                                "address": "0x770794",
+                                "name": "SetScrollPos"
+                            },
+                            {
+                                "address": "0x770798",
+                                "name": "ScrollWindow"
+                            },
+                            {
+                                "address": "0x77079c",
+                                "name": "EndPaint"
+                            },
+                            {
+                                "address": "0x7707a0",
+                                "name": "CreateMenu"
+                            },
+                            {
+                                "address": "0x7707a4",
+                                "name": "CreatePopupMenu"
+                            },
+                            {
+                                "address": "0x7707a8",
+                                "name": "CheckMenuItem"
+                            },
+                            {
+                                "address": "0x7707ac",
+                                "name": "EnableMenuItem"
+                            },
+                            {
+                                "address": "0x7707b0",
+                                "name": "ModifyMenuA"
+                            },
+                            {
+                                "address": "0x7707b4",
+                                "name": "DeleteMenu"
+                            },
+                            {
+                                "address": "0x7707b8",
+                                "name": "InsertMenuItemA"
+                            },
+                            {
+                                "address": "0x7707bc",
+                                "name": "GetMenuItemInfoA"
+                            },
+                            {
+                                "address": "0x7707c0",
+                                "name": "SetMenuItemInfoA"
+                            },
+                            {
+                                "address": "0x7707c4",
+                                "name": "GetMenuDefaultItem"
+                            },
+                            {
+                                "address": "0x7707c8",
+                                "name": "SetMenuDefaultItem"
+                            },
+                            {
+                                "address": "0x7707cc",
+                                "name": "DrawIcon"
+                            },
+                            {
+                                "address": "0x7707d0",
+                                "name": "DrawTextA"
+                            },
+                            {
+                                "address": "0x7707d4",
+                                "name": "DrawTextExA"
+                            },
+                            {
+                                "address": "0x7707d8",
+                                "name": "GrayStringA"
+                            },
+                            {
+                                "address": "0x7707dc",
+                                "name": "DrawStateA"
+                            },
+                            {
+                                "address": "0x7707e0",
+                                "name": "GetSysColorBrush"
+                            },
+                            {
+                                "address": "0x7707e4",
+                                "name": "GetWindowRgn"
+                            },
+                            {
+                                "address": "0x7707e8",
+                                "name": "IsWindow"
+                            },
+                            {
+                                "address": "0x7707ec",
+                                "name": "TabbedTextOutA"
+                            },
+                            {
+                                "address": "0x7707f0",
+                                "name": "MapDialogRect"
+                            },
+                            {
+                                "address": "0x7707f4",
+                                "name": "GetFocus"
+                            },
+                            {
+                                "address": "0x7707f8",
+                                "name": "SetMenuItemBitmaps"
+                            },
+                            {
+                                "address": "0x7707fc",
+                                "name": "GetMenuCheckMarkDimensions"
+                            },
+                            {
+                                "address": "0x770800",
+                                "name": "LoadBitmapW"
+                            },
+                            {
+                                "address": "0x770804",
+                                "name": "RegisterWindowMessageA"
+                            },
+                            {
+                                "address": "0x770808",
+                                "name": "DispatchMessageA"
+                            },
+                            {
+                                "address": "0x77080c",
+                                "name": "GetMessagePos"
+                            },
+                            {
+                                "address": "0x770810",
+                                "name": "GetMessageTime"
+                            },
+                            {
+                                "address": "0x770814",
+                                "name": "DefWindowProcA"
+                            },
+                            {
+                                "address": "0x770818",
+                                "name": "CallWindowProcA"
+                            },
+                            {
+                                "address": "0x77081c",
+                                "name": "RegisterClassA"
+                            },
+                            {
+                                "address": "0x770820",
+                                "name": "GetClassInfoA"
+                            },
+                            {
+                                "address": "0x770824",
+                                "name": "GetClassInfoExA"
+                            },
+                            {
+                                "address": "0x770828",
+                                "name": "CreateWindowExA"
+                            },
+                            {
+                                "address": "0x77082c",
+                                "name": "IsMenu"
+                            },
+                            {
+                                "address": "0x770830",
+                                "name": "IsChild"
+                            },
+                            {
+                                "address": "0x770834",
+                                "name": "DestroyWindow"
+                            },
+                            {
+                                "address": "0x770838",
+                                "name": "SetWindowPos"
+                            },
+                            {
+                                "address": "0x77083c",
+                                "name": "GetWindowPlacement"
+                            },
+                            {
+                                "address": "0x770840",
+                                "name": "SetWindowPlacement"
+                            },
+                            {
+                                "address": "0x770844",
+                                "name": "BeginDeferWindowPos"
+                            },
+                            {
+                                "address": "0x770848",
+                                "name": "DeferWindowPos"
+                            },
+                            {
+                                "address": "0x77084c",
+                                "name": "EndDeferWindowPos"
+                            },
+                            {
+                                "address": "0x770850",
+                                "name": "GetDlgItem"
+                            },
+                            {
+                                "address": "0x770854",
+                                "name": "GetDlgCtrlID"
+                            },
+                            {
+                                "address": "0x770858",
+                                "name": "SetFocus"
+                            },
+                            {
+                                "address": "0x77085c",
+                                "name": "GetKeyState"
+                            },
+                            {
+                                "address": "0x770860",
+                                "name": "GetCapture"
+                            },
+                            {
+                                "address": "0x770864",
+                                "name": "GetMenu"
+                            },
+                            {
+                                "address": "0x770868",
+                                "name": "SetMenu"
+                            },
+                            {
+                                "address": "0x77086c",
+                                "name": "TrackPopupMenu"
+                            },
+                            {
+                                "address": "0x770870",
+                                "name": "SetActiveWindow"
+                            },
+                            {
+                                "address": "0x770874",
+                                "name": "BeginPaint"
+                            },
+                            {
+                                "address": "0x770878",
+                                "name": "GetAsyncKeyState"
+                            },
+                            {
+                                "address": "0x77087c",
+                                "name": "RealChildWindowFromPoint"
+                            },
+                            {
+                                "address": "0x770880",
+                                "name": "CopyImage"
+                            },
+                            {
+                                "address": "0x770884",
+                                "name": "GetClipboardFormatNameA"
+                            },
+                            {
+                                "address": "0x770888",
+                                "name": "DrawFocusRect"
+                            },
+                            {
+                                "address": "0x77088c",
+                                "name": "GetKeyNameTextA"
+                            },
+                            {
+                                "address": "0x770890",
+                                "name": "MapVirtualKeyA"
+                            },
+                            {
+                                "address": "0x770894",
+                                "name": "UnionRect"
+                            },
+                            {
+                                "address": "0x770898",
+                                "name": "LoadAcceleratorsW"
+                            },
+                            {
+                                "address": "0x77089c",
+                                "name": "CharUpperA"
+                            },
+                            {
+                                "address": "0x7708a0",
+                                "name": "CharNextA"
+                            },
+                            {
+                                "address": "0x7708a4",
+                                "name": "CopyAcceleratorTableA"
+                            },
+                            {
+                                "address": "0x7708a8",
+                                "name": "MessageBeep"
+                            },
+                            {
+                                "address": "0x7708ac",
+                                "name": "GetTabbedTextExtentW"
+                            },
+                            {
+                                "address": "0x7708b0",
+                                "name": "TrackMouseEvent"
+                            },
+                            {
+                                "address": "0x7708b4",
+                                "name": "LoadImageW"
+                            },
+                            {
+                                "address": "0x7708b8",
+                                "name": "RegisterClipboardFormatA"
+                            },
+                            {
+                                "address": "0x7708bc",
+                                "name": "WaitMessage"
+                            },
+                            {
+                                "address": "0x7708c0",
+                                "name": "IsClipboardFormatAvailable"
+                            },
+                            {
+                                "address": "0x7708c4",
+                                "name": "DrawIconEx"
+                            },
+                            {
+                                "address": "0x7708c8",
+                                "name": "GetIconInfo"
+                            },
+                            {
+                                "address": "0x7708cc",
+                                "name": "SetLayeredWindowAttributes"
+                            },
+                            {
+                                "address": "0x7708d0",
+                                "name": "EnumDisplayMonitors"
+                            },
+                            {
+                                "address": "0x7708d4",
+                                "name": "SetClassLongA"
+                            },
+                            {
+                                "address": "0x7708d8",
+                                "name": "CloseClipboard"
+                            },
+                            {
+                                "address": "0x7708dc",
+                                "name": "SetClipboardData"
+                            },
+                            {
+                                "address": "0x7708e0",
+                                "name": "EmptyClipboard"
+                            },
+                            {
+                                "address": "0x7708e4",
+                                "name": "SetCursorPos"
+                            },
+                            {
+                                "address": "0x7708e8",
+                                "name": "CopyIcon"
+                            },
+                            {
+                                "address": "0x7708ec",
+                                "name": "UpdateLayeredWindow"
+                            },
+                            {
+                                "address": "0x7708f0",
+                                "name": "MonitorFromPoint"
+                            },
+                            {
+                                "address": "0x7708f4",
+                                "name": "GetComboBoxInfo"
+                            },
+                            {
+                                "address": "0x7708f8",
+                                "name": "GetKeyboardLayout"
+                            },
+                            {
+                                "address": "0x7708fc",
+                                "name": "IsCharLowerA"
+                            },
+                            {
+                                "address": "0x770900",
+                                "name": "MapVirtualKeyExA"
+                            },
+                            {
+                                "address": "0x770904",
+                                "name": "SubtractRect"
+                            },
+                            {
+                                "address": "0x770908",
+                                "name": "CharUpperBuffA"
+                            },
+                            {
+                                "address": "0x77090c",
+                                "name": "GetDoubleClickTime"
+                            },
+                            {
+                                "address": "0x770910",
+                                "name": "DestroyAcceleratorTable"
+                            },
+                            {
+                                "address": "0x770914",
+                                "name": "CreateAcceleratorTableA"
+                            },
+                            {
+                                "address": "0x770918",
+                                "name": "ToAsciiEx"
+                            },
+                            {
+                                "address": "0x77091c",
+                                "name": "KillTimer"
+                            },
+                            {
+                                "address": "0x770920",
+                                "name": "GetKeyboardState"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "GDI32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770038",
+                                "name": "SelectObject"
+                            },
+                            {
+                                "address": "0x77003c",
+                                "name": "StretchDIBits"
+                            },
+                            {
+                                "address": "0x770040",
+                                "name": "GetStockObject"
+                            },
+                            {
+                                "address": "0x770044",
+                                "name": "CopyMetaFileA"
+                            },
+                            {
+                                "address": "0x770048",
+                                "name": "GetDeviceCaps"
+                            },
+                            {
+                                "address": "0x77004c",
+                                "name": "BitBlt"
+                            },
+                            {
+                                "address": "0x770050",
+                                "name": "CombineRgn"
+                            },
+                            {
+                                "address": "0x770054",
+                                "name": "CreateEllipticRgn"
+                            },
+                            {
+                                "address": "0x770058",
+                                "name": "CreateFontIndirectA"
+                            },
+                            {
+                                "address": "0x77005c",
+                                "name": "CreateHatchBrush"
+                            },
+                            {
+                                "address": "0x770060",
+                                "name": "CreatePalette"
+                            },
+                            {
+                                "address": "0x770064",
+                                "name": "CreatePen"
+                            },
+                            {
+                                "address": "0x770068",
+                                "name": "CreatePatternBrush"
+                            },
+                            {
+                                "address": "0x77006c",
+                                "name": "CreateRectRgn"
+                            },
+                            {
+                                "address": "0x770070",
+                                "name": "CreateRectRgnIndirect"
+                            },
+                            {
+                                "address": "0x770074",
+                                "name": "CreateRoundRectRgn"
+                            },
+                            {
+                                "address": "0x770078",
+                                "name": "CreateSolidBrush"
+                            },
+                            {
+                                "address": "0x77007c",
+                                "name": "Ellipse"
+                            },
+                            {
+                                "address": "0x770080",
+                                "name": "Escape"
+                            },
+                            {
+                                "address": "0x770084",
+                                "name": "ExtFloodFill"
+                            },
+                            {
+                                "address": "0x770088",
+                                "name": "FillRgn"
+                            },
+                            {
+                                "address": "0x77008c",
+                                "name": "FrameRgn"
+                            },
+                            {
+                                "address": "0x770090",
+                                "name": "GetROP2"
+                            },
+                            {
+                                "address": "0x770094",
+                                "name": "GetBkColor"
+                            },
+                            {
+                                "address": "0x770098",
+                                "name": "GetBkMode"
+                            },
+                            {
+                                "address": "0x77009c",
+                                "name": "GetBoundsRect"
+                            },
+                            {
+                                "address": "0x7700a0",
+                                "name": "GetCurrentPositionEx"
+                            },
+                            {
+                                "address": "0x7700a4",
+                                "name": "GetMapMode"
+                            },
+                            {
+                                "address": "0x7700a8",
+                                "name": "GetNearestColor"
+                            },
+                            {
+                                "address": "0x7700ac",
+                                "name": "GetNearestPaletteIndex"
+                            },
+                            {
+                                "address": "0x7700b0",
+                                "name": "GetPaletteEntries"
+                            },
+                            {
+                                "address": "0x7700b4",
+                                "name": "GetPixel"
+                            },
+                            {
+                                "address": "0x7700b8",
+                                "name": "GetPolyFillMode"
+                            },
+                            {
+                                "address": "0x7700bc",
+                                "name": "GetRgnBox"
+                            },
+                            {
+                                "address": "0x7700c0",
+                                "name": "GetStretchBltMode"
+                            },
+                            {
+                                "address": "0x7700c4",
+                                "name": "GetTextAlign"
+                            },
+                            {
+                                "address": "0x7700c8",
+                                "name": "GetTextColor"
+                            },
+                            {
+                                "address": "0x7700cc",
+                                "name": "GetTextExtentPoint32A"
+                            },
+                            {
+                                "address": "0x7700d0",
+                                "name": "GetViewportExtEx"
+                            },
+                            {
+                                "address": "0x7700d4",
+                                "name": "GetViewportOrgEx"
+                            },
+                            {
+                                "address": "0x7700d8",
+                                "name": "GetWindowExtEx"
+                            },
+                            {
+                                "address": "0x7700dc",
+                                "name": "GetWindowOrgEx"
+                            },
+                            {
+                                "address": "0x7700e0",
+                                "name": "OffsetRgn"
+                            },
+                            {
+                                "address": "0x7700e4",
+                                "name": "PatBlt"
+                            },
+                            {
+                                "address": "0x7700e8",
+                                "name": "PtInRegion"
+                            },
+                            {
+                                "address": "0x7700ec",
+                                "name": "PtVisible"
+                            },
+                            {
+                                "address": "0x7700f0",
+                                "name": "RectVisible"
+                            },
+                            {
+                                "address": "0x7700f4",
+                                "name": "Rectangle"
+                            },
+                            {
+                                "address": "0x7700f8",
+                                "name": "RealizePalette"
+                            },
+                            {
+                                "address": "0x7700fc",
+                                "name": "RoundRect"
+                            },
+                            {
+                                "address": "0x770100",
+                                "name": "SetPaletteEntries"
+                            },
+                            {
+                                "address": "0x770104",
+                                "name": "GetCharWidthA"
+                            },
+                            {
+                                "address": "0x770108",
+                                "name": "SetPixelV"
+                            },
+                            {
+                                "address": "0x77010c",
+                                "name": "StretchBlt"
+                            },
+                            {
+                                "address": "0x770110",
+                                "name": "SetRectRgn"
+                            },
+                            {
+                                "address": "0x770114",
+                                "name": "GetTextMetricsA"
+                            },
+                            {
+                                "address": "0x770118",
+                                "name": "StartDocA"
+                            },
+                            {
+                                "address": "0x77011c",
+                                "name": "EndDoc"
+                            },
+                            {
+                                "address": "0x770120",
+                                "name": "StartPage"
+                            },
+                            {
+                                "address": "0x770124",
+                                "name": "EndPage"
+                            },
+                            {
+                                "address": "0x770128",
+                                "name": "AbortDoc"
+                            },
+                            {
+                                "address": "0x77012c",
+                                "name": "SetAbortProc"
+                            },
+                            {
+                                "address": "0x770130",
+                                "name": "TextOutA"
+                            },
+                            {
+                                "address": "0x770134",
+                                "name": "CreatePolygonRgn"
+                            },
+                            {
+                                "address": "0x770138",
+                                "name": "DPtoLP"
+                            },
+                            {
+                                "address": "0x77013c",
+                                "name": "LPtoDP"
+                            },
+                            {
+                                "address": "0x770140",
+                                "name": "Polygon"
+                            },
+                            {
+                                "address": "0x770144",
+                                "name": "Polyline"
+                            },
+                            {
+                                "address": "0x770148",
+                                "name": "GetTextFaceA"
+                            },
+                            {
+                                "address": "0x77014c",
+                                "name": "ExcludeClipRect"
+                            },
+                            {
+                                "address": "0x770150",
+                                "name": "GetClipBox"
+                            },
+                            {
+                                "address": "0x770154",
+                                "name": "IntersectClipRect"
+                            },
+                            {
+                                "address": "0x770158",
+                                "name": "LineTo"
+                            },
+                            {
+                                "address": "0x77015c",
+                                "name": "RestoreDC"
+                            },
+                            {
+                                "address": "0x770160",
+                                "name": "SaveDC"
+                            },
+                            {
+                                "address": "0x770164",
+                                "name": "SelectClipRgn"
+                            },
+                            {
+                                "address": "0x770168",
+                                "name": "ExtSelectClipRgn"
+                            },
+                            {
+                                "address": "0x77016c",
+                                "name": "SelectPalette"
+                            },
+                            {
+                                "address": "0x770170",
+                                "name": "SetBkMode"
+                            },
+                            {
+                                "address": "0x770174",
+                                "name": "SetMapMode"
+                            },
+                            {
+                                "address": "0x770178",
+                                "name": "SetLayout"
+                            },
+                            {
+                                "address": "0x77017c",
+                                "name": "GetLayout"
+                            },
+                            {
+                                "address": "0x770180",
+                                "name": "SetPolyFillMode"
+                            },
+                            {
+                                "address": "0x770184",
+                                "name": "SetROP2"
+                            },
+                            {
+                                "address": "0x770188",
+                                "name": "SetStretchBltMode"
+                            },
+                            {
+                                "address": "0x77018c",
+                                "name": "SetTextAlign"
+                            },
+                            {
+                                "address": "0x770190",
+                                "name": "MoveToEx"
+                            },
+                            {
+                                "address": "0x770194",
+                                "name": "SetViewportExtEx"
+                            },
+                            {
+                                "address": "0x770198",
+                                "name": "SetViewportOrgEx"
+                            },
+                            {
+                                "address": "0x77019c",
+                                "name": "SetWindowExtEx"
+                            },
+                            {
+                                "address": "0x7701a0",
+                                "name": "SetWindowOrgEx"
+                            },
+                            {
+                                "address": "0x7701a4",
+                                "name": "OffsetViewportOrgEx"
+                            },
+                            {
+                                "address": "0x7701a8",
+                                "name": "OffsetWindowOrgEx"
+                            },
+                            {
+                                "address": "0x7701ac",
+                                "name": "ScaleViewportExtEx"
+                            },
+                            {
+                                "address": "0x7701b0",
+                                "name": "ScaleWindowExtEx"
+                            },
+                            {
+                                "address": "0x7701b4",
+                                "name": "CreateDIBSection"
+                            },
+                            {
+                                "address": "0x7701b8",
+                                "name": "GetTextExtentPointA"
+                            },
+                            {
+                                "address": "0x7701bc",
+                                "name": "GetTextExtentPoint32W"
+                            },
+                            {
+                                "address": "0x7701c0",
+                                "name": "EnumFontFamiliesExA"
+                            },
+                            {
+                                "address": "0x7701c4",
+                                "name": "GetObjectType"
+                            },
+                            {
+                                "address": "0x7701c8",
+                                "name": "DeleteObject"
+                            },
+                            {
+                                "address": "0x7701cc",
+                                "name": "DeleteDC"
+                            },
+                            {
+                                "address": "0x7701d0",
+                                "name": "CreateFontA"
+                            },
+                            {
+                                "address": "0x7701d4",
+                                "name": "CreateCompatibleDC"
+                            },
+                            {
+                                "address": "0x7701d8",
+                                "name": "CreateCompatibleBitmap"
+                            },
+                            {
+                                "address": "0x7701dc",
+                                "name": "GetObjectA"
+                            },
+                            {
+                                "address": "0x7701e0",
+                                "name": "SetTextColor"
+                            },
+                            {
+                                "address": "0x7701e4",
+                                "name": "SetBkColor"
+                            },
+                            {
+                                "address": "0x7701e8",
+                                "name": "CreateBitmap"
+                            },
+                            {
+                                "address": "0x7701ec",
+                                "name": "ExtTextOutA"
+                            },
+                            {
+                                "address": "0x7701f0",
+                                "name": "CreateDCA"
+                            },
+                            {
+                                "address": "0x7701f4",
+                                "name": "SetPixel"
+                            },
+                            {
+                                "address": "0x7701f8",
+                                "name": "GetSystemPaletteEntries"
+                            },
+                            {
+                                "address": "0x7701fc",
+                                "name": "SetDIBColorTable"
+                            },
+                            {
+                                "address": "0x770200",
+                                "name": "GetTextCharsetInfo"
+                            },
+                            {
+                                "address": "0x770204",
+                                "name": "EnumFontFamiliesA"
+                            },
+                            {
+                                "address": "0x770208",
+                                "name": "CreateDIBitmap"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "MSIMG32.dll",
+                        "imports": [
+                            {
+                                "address": "0x7704e4",
+                                "name": "TransparentBlt"
+                            },
+                            {
+                                "address": "0x7704e8",
+                                "name": "AlphaBlend"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "WINSPOOL.DRV",
+                        "imports": [
+                            {
+                                "address": "0x770964",
+                                "name": "OpenPrinterA"
+                            },
+                            {
+                                "address": "0x770968",
+                                "name": "DocumentPropertiesA"
+                            },
+                            {
+                                "address": "0x77096c",
+                                "name": "ClosePrinter"
+                            },
+                            {
+                                "address": "0x770970",
+                                "name": "GetJobA"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "ADVAPI32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770000",
+                                "name": "RegCreateKeyExA"
+                            },
+                            {
+                                "address": "0x770004",
+                                "name": "RegOpenKeyExA"
+                            },
+                            {
+                                "address": "0x770008",
+                                "name": "RegQueryValueExA"
+                            },
+                            {
+                                "address": "0x77000c",
+                                "name": "RegDeleteKeyA"
+                            },
+                            {
+                                "address": "0x770010",
+                                "name": "RegDeleteValueA"
+                            },
+                            {
+                                "address": "0x770014",
+                                "name": "RegSetValueExA"
+                            },
+                            {
+                                "address": "0x770018",
+                                "name": "RegEnumKeyA"
+                            },
+                            {
+                                "address": "0x77001c",
+                                "name": "RegQueryValueA"
+                            },
+                            {
+                                "address": "0x770020",
+                                "name": "SetFileSecurityA"
+                            },
+                            {
+                                "address": "0x770024",
+                                "name": "GetFileSecurityA"
+                            },
+                            {
+                                "address": "0x770028",
+                                "name": "RegEnumValueA"
+                            },
+                            {
+                                "address": "0x77002c",
+                                "name": "RegEnumKeyExA"
+                            },
+                            {
+                                "address": "0x770030",
+                                "name": "RegCloseKey"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "SHELL32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770540",
+                                "name": "DragQueryFileA"
+                            },
+                            {
+                                "address": "0x770544",
+                                "name": "DragFinish"
+                            },
+                            {
+                                "address": "0x770548",
+                                "name": "SHGetFileInfoA"
+                            },
+                            {
+                                "address": "0x77054c",
+                                "name": "SHGetPathFromIDListA"
+                            },
+                            {
+                                "address": "0x770550",
+                                "name": "SHGetSpecialFolderLocation"
+                            },
+                            {
+                                "address": "0x770554",
+                                "name": "SHAppBarMessage"
+                            },
+                            {
+                                "address": "0x770558",
+                                "name": "SHBrowseForFolderA"
+                            },
+                            {
+                                "address": "0x77055c",
+                                "name": "ShellExecuteA"
+                            },
+                            {
+                                "address": "0x770560",
+                                "name": "SHGetDesktopFolder"
+                            },
+                            {
+                                "address": "0x770564",
+                                "name": "SHGetSpecialFolderPathA"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "SHLWAPI.dll",
+                        "imports": [
+                            {
+                                "address": "0x77056c",
+                                "name": "PathFindExtensionA"
+                            },
+                            {
+                                "address": "0x770570",
+                                "name": "PathIsUNCA"
+                            },
+                            {
+                                "address": "0x770574",
+                                "name": "PathStripToRootA"
+                            },
+                            {
+                                "address": "0x770578",
+                                "name": "StrFormatKBSizeA"
+                            },
+                            {
+                                "address": "0x77057c",
+                                "name": "PathRemoveFileSpecW"
+                            },
+                            {
+                                "address": "0x770580",
+                                "name": "PathFindFileNameA"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "UxTheme.dll",
+                        "imports": [
+                            {
+                                "address": "0x770928",
+                                "name": "GetThemeSysColor"
+                            },
+                            {
+                                "address": "0x77092c",
+                                "name": "GetWindowTheme"
+                            },
+                            {
+                                "address": "0x770930",
+                                "name": "GetCurrentThemeName"
+                            },
+                            {
+                                "address": "0x770934",
+                                "name": "GetThemeColor"
+                            },
+                            {
+                                "address": "0x770938",
+                                "name": "DrawThemeText"
+                            },
+                            {
+                                "address": "0x77093c",
+                                "name": "DrawThemeBackground"
+                            },
+                            {
+                                "address": "0x770940",
+                                "name": "IsThemeBackgroundPartiallyTransparent"
+                            },
+                            {
+                                "address": "0x770944",
+                                "name": "DrawThemeParentBackground"
+                            },
+                            {
+                                "address": "0x770948",
+                                "name": "OpenThemeData"
+                            },
+                            {
+                                "address": "0x77094c",
+                                "name": "CloseThemeData"
+                            },
+                            {
+                                "address": "0x770950",
+                                "name": "GetThemePartSize"
+                            },
+                            {
+                                "address": "0x770954",
+                                "name": "IsAppThemed"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "ole32.dll",
+                        "imports": [
+                            {
+                                "address": "0x7709d8",
+                                "name": "OleDestroyMenuDescriptor"
+                            },
+                            {
+                                "address": "0x7709dc",
+                                "name": "OleCreateMenuDescriptor"
+                            },
+                            {
+                                "address": "0x7709e0",
+                                "name": "DoDragDrop"
+                            },
+                            {
+                                "address": "0x7709e4",
+                                "name": "RegisterDragDrop"
+                            },
+                            {
+                                "address": "0x7709e8",
+                                "name": "RevokeDragDrop"
+                            },
+                            {
+                                "address": "0x7709ec",
+                                "name": "OleIsCurrentClipboard"
+                            },
+                            {
+                                "address": "0x7709f0",
+                                "name": "CreateStreamOnHGlobal"
+                            },
+                            {
+                                "address": "0x7709f4",
+                                "name": "CreateILockBytesOnHGlobal"
+                            },
+                            {
+                                "address": "0x7709f8",
+                                "name": "StgOpenStorageOnILockBytes"
+                            },
+                            {
+                                "address": "0x7709fc",
+                                "name": "StgCreateDocfileOnILockBytes"
+                            },
+                            {
+                                "address": "0x770a00",
+                                "name": "IsAccelerator"
+                            },
+                            {
+                                "address": "0x770a04",
+                                "name": "CoRevokeClassObject"
+                            },
+                            {
+                                "address": "0x770a08",
+                                "name": "CoFreeUnusedLibraries"
+                            },
+                            {
+                                "address": "0x770a0c",
+                                "name": "OleInitialize"
+                            },
+                            {
+                                "address": "0x770a10",
+                                "name": "OleUninitialize"
+                            },
+                            {
+                                "address": "0x770a14",
+                                "name": "OleGetClipboard"
+                            },
+                            {
+                                "address": "0x770a18",
+                                "name": "OleLockRunning"
+                            },
+                            {
+                                "address": "0x770a1c",
+                                "name": "OleTranslateAccelerator"
+                            },
+                            {
+                                "address": "0x770a20",
+                                "name": "StringFromGUID2"
+                            },
+                            {
+                                "address": "0x770a24",
+                                "name": "CoGetClassObject"
+                            },
+                            {
+                                "address": "0x770a28",
+                                "name": "CoDisconnectObject"
+                            },
+                            {
+                                "address": "0x770a2c",
+                                "name": "CoInitializeEx"
+                            },
+                            {
+                                "address": "0x770a30",
+                                "name": "ReleaseStgMedium"
+                            },
+                            {
+                                "address": "0x770a34",
+                                "name": "OleDuplicateData"
+                            },
+                            {
+                                "address": "0x770a38",
+                                "name": "StringFromCLSID"
+                            },
+                            {
+                                "address": "0x770a3c",
+                                "name": "CoTaskMemFree"
+                            },
+                            {
+                                "address": "0x770a40",
+                                "name": "CoTaskMemAlloc"
+                            },
+                            {
+                                "address": "0x770a44",
+                                "name": "CLSIDFromProgID"
+                            },
+                            {
+                                "address": "0x770a48",
+                                "name": "CLSIDFromString"
+                            },
+                            {
+                                "address": "0x770a4c",
+                                "name": "CoInitialize"
+                            },
+                            {
+                                "address": "0x770a50",
+                                "name": "CoCreateInstance"
+                            },
+                            {
+                                "address": "0x770a54",
+                                "name": "CoCreateGuid"
+                            },
+                            {
+                                "address": "0x770a58",
+                                "name": "CoUninitialize"
+                            },
+                            {
+                                "address": "0x770a5c",
+                                "name": "CoLockObjectExternal"
+                            },
+                            {
+                                "address": "0x770a60",
+                                "name": "OleFlushClipboard"
+                            },
+                            {
+                                "address": "0x770a64",
+                                "name": "CoRegisterMessageFilter"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "OLEAUT32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770500",
+                                "name": "SysFreeString"
+                            },
+                            {
+                                "address": "0x770504",
+                                "name": "SysAllocString"
+                            },
+                            {
+                                "address": "0x770508",
+                                "name": "SysStringLen"
+                            },
+                            {
+                                "address": "0x77050c",
+                                "name": "SystemTimeToVariantTime"
+                            },
+                            {
+                                "address": "0x770510",
+                                "name": "VariantTimeToSystemTime"
+                            },
+                            {
+                                "address": "0x770514",
+                                "name": "SafeArrayDestroy"
+                            },
+                            {
+                                "address": "0x770518",
+                                "name": "LoadTypeLib"
+                            },
+                            {
+                                "address": "0x77051c",
+                                "name": "VariantChangeType"
+                            },
+                            {
+                                "address": "0x770520",
+                                "name": "OleCreateFontIndirect"
+                            },
+                            {
+                                "address": "0x770524",
+                                "name": "VariantCopy"
+                            },
+                            {
+                                "address": "0x770528",
+                                "name": "VarBstrFromDate"
+                            },
+                            {
+                                "address": "0x77052c",
+                                "name": "SysAllocStringByteLen"
+                            },
+                            {
+                                "address": "0x770530",
+                                "name": "VariantClear"
+                            },
+                            {
+                                "address": "0x770534",
+                                "name": "VariantInit"
+                            },
+                            {
+                                "address": "0x770538",
+                                "name": "SysAllocStringLen"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "oledlg.dll",
+                        "imports": [
+                            {
+                                "address": "0x770a6c"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "OLEACC.dll",
+                        "imports": [
+                            {
+                                "address": "0x7704f0",
+                                "name": "AccessibleObjectFromWindow"
+                            },
+                            {
+                                "address": "0x7704f4",
+                                "name": "LresultFromObject"
+                            },
+                            {
+                                "address": "0x7704f8",
+                                "name": "CreateStdAccessibleObject"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "gdiplus.dll",
+                        "imports": [
+                            {
+                                "address": "0x770978",
+                                "name": "GdipDrawImageRectI"
+                            },
+                            {
+                                "address": "0x77097c",
+                                "name": "GdipSetInterpolationMode"
+                            },
+                            {
+                                "address": "0x770980",
+                                "name": "GdipCreateFromHDC"
+                            },
+                            {
+                                "address": "0x770984",
+                                "name": "GdipCreateBitmapFromHBITMAP"
+                            },
+                            {
+                                "address": "0x770988",
+                                "name": "GdipDrawImageI"
+                            },
+                            {
+                                "address": "0x77098c",
+                                "name": "GdipDeleteGraphics"
+                            },
+                            {
+                                "address": "0x770990",
+                                "name": "GdipBitmapUnlockBits"
+                            },
+                            {
+                                "address": "0x770994",
+                                "name": "GdipBitmapLockBits"
+                            },
+                            {
+                                "address": "0x770998",
+                                "name": "GdipCreateBitmapFromScan0"
+                            },
+                            {
+                                "address": "0x77099c",
+                                "name": "GdipCreateBitmapFromStreamICM"
+                            },
+                            {
+                                "address": "0x7709a0",
+                                "name": "GdipCreateBitmapFromStream"
+                            },
+                            {
+                                "address": "0x7709a4",
+                                "name": "GdipGetImagePaletteSize"
+                            },
+                            {
+                                "address": "0x7709a8",
+                                "name": "GdipGetImagePalette"
+                            },
+                            {
+                                "address": "0x7709ac",
+                                "name": "GdipGetImagePixelFormat"
+                            },
+                            {
+                                "address": "0x7709b0",
+                                "name": "GdipGetImageHeight"
+                            },
+                            {
+                                "address": "0x7709b4",
+                                "name": "GdipGetImageWidth"
+                            },
+                            {
+                                "address": "0x7709b8",
+                                "name": "GdipGetImageGraphicsContext"
+                            },
+                            {
+                                "address": "0x7709bc",
+                                "name": "GdipDisposeImage"
+                            },
+                            {
+                                "address": "0x7709c0",
+                                "name": "GdipCloneImage"
+                            },
+                            {
+                                "address": "0x7709c4",
+                                "name": "GdiplusStartup"
+                            },
+                            {
+                                "address": "0x7709c8",
+                                "name": "GdipFree"
+                            },
+                            {
+                                "address": "0x7709cc",
+                                "name": "GdipAlloc"
+                            },
+                            {
+                                "address": "0x7709d0",
+                                "name": "GdiplusShutdown"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "IMM32.dll",
+                        "imports": [
+                            {
+                                "address": "0x770210",
+                                "name": "ImmReleaseContext"
+                            },
+                            {
+                                "address": "0x770214",
+                                "name": "ImmGetOpenStatus"
+                            },
+                            {
+                                "address": "0x770218",
+                                "name": "ImmGetContext"
+                            }
+                        ]
+                    },
+                    {
+                        "dll": "WINMM.dll",
+                        "imports": [
+                            {
+                                "address": "0x77095c",
+                                "name": "PlaySoundA"
+                            }
+                        ]
+                    }
+                ],
+                "pe_resources": [
+                    {
+                        "name": "AFX_DIALOG_LAYOUT",
+                        "offset": "0x004385ec",
+                        "size": "0x00000002",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_MACAU"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x004385f0",
+                        "size": "0x00000ea8",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x00439498",
+                        "size": "0x000008a8",
+                        "filetype": "dBase IV DBT of @.DBF, block length 1024, next free block index 40, next free block 0, next used block 0",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x00439d40",
+                        "size": "0x00000568",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x0043a2a8",
+                        "size": "0x0000724e",
+                        "filetype": "PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x004414f8",
+                        "size": "0x00004228",
+                        "filetype": "dBase IV DBT of \\200.DBF, blocks size 0, block length 16896, next free block index 40, next free block 65535, next used block 4294902016",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x00445720",
+                        "size": "0x000025a8",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x00447cc8",
+                        "size": "0x000010a8",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x00448d70",
+                        "size": "0x00000988",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x004496f8",
+                        "size": "0x000006b8",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x00449db0",
+                        "size": "0x00000468",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x0044a218",
+                        "size": "0x00000468",
+                        "filetype": "GLS_BINARY_LSB_FIRST",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_ICON",
+                        "offset": "0x0044a680",
+                        "size": "0x00000300",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_DIALOG",
+                        "offset": "0x0044a980",
+                        "size": "0x000001a0",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_MACAU"
+                    },
+                    {
+                        "name": "RT_DIALOG",
+                        "offset": "0x0044ab20",
+                        "size": "0x000000e2",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_SIMPLIFIED"
+                    },
+                    {
+                        "name": "RT_DIALOG",
+                        "offset": "0x0044ac04",
+                        "size": "0x0000016a",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_SIMPLIFIED"
+                    },
+                    {
+                        "name": "RT_DIALOG",
+                        "offset": "0x0044ad70",
+                        "size": "0x00000142",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_SIMPLIFIED"
+                    },
+                    {
+                        "name": "RT_DIALOG",
+                        "offset": "0x0044aeb4",
+                        "size": "0x00000034",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_SIMPLIFIED"
+                    },
+                    {
+                        "name": "RT_STRING",
+                        "offset": "0x0044aee8",
+                        "size": "0x00000044",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_GROUP_ICON",
+                        "offset": "0x0044af2c",
+                        "size": "0x00000092",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_GROUP_ICON",
+                        "offset": "0x0044afc0",
+                        "size": "0x00000014",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_GROUP_ICON",
+                        "offset": "0x0044afd4",
+                        "size": "0x00000014",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_VERSION",
+                        "offset": "0x0044afe8",
+                        "size": "0x000002fc",
+                        "filetype": "data",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "RT_MANIFEST",
+                        "offset": "0x0044b2e4",
+                        "size": "0x000004c1",
+                        "filetype": "XML 1.0 document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators",
+                        "language": "LANG_ENGLISH",
+                        "sublanguage": "SUBLANG_ENGLISH_US"
+                    },
+                    {
+                        "name": "None",
+                        "offset": "0x0044b7a8",
+                        "size": "0x0000024b",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_MACAU"
+                    },
+                    {
+                        "name": "None",
+                        "offset": "0x0044b9f4",
+                        "size": "0x0000001e",
+                        "filetype": "data",
+                        "language": "LANG_CHINESE",
+                        "sublanguage": "SUBLANG_CHINESE_SIMPLIFIED"
+                    }
+                ],
+                "tag": [],
+                "pe_basic": {
+                    "tls_info": {
+                        "AddressOfCallBacks": "0x00770e60",
+                        "AddressOfIndex": "0x00836de0",
+                        "Characteristics": "0x00300000",
+                        "EndAddressOfRawData": "0x007cd230",
+                        "SizeOfZeroFill": "0x00000000",
+                        "StartAddressOfRawData": "0x007cd228"
+                    },
+                    "import_hash": "d53a88d38f3c01570c9d0d6d7146021b",
+                    "peid": [
+                        "filetype: PE32",
+                        "arch: I386",
+                        "mode: 32",
+                        "endianess: LE",
+                        "type: GUI",
+                        "linker: Microsoft Linker(14.16, Visual Studio 2017 15.9*)[GUI32,signed]"
+                    ],
+                    "time_stamp": "2022-01-02 09:58:50",
+                    "entry_point_section": ".text",
+                    "overlay_size": 14680,
+                    "image_base": "0x400000",
+                    "entry_point": "0x310a20"
+                },
+                "pe_detect": {
+                    "find_crypt": {},
+                    "urls": [
+                        "https://www.digicert.com/CPS0",
+                        "http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt0",
+                        "http://crl4.digicert.com/DigiCertHighAssuranceEVRootCA.crl0",
+                        "http://crl4.digicert.com/EVCodeSigning-g1.crl0K",
+                        "http://crl3.digicert.com/DigiCertHighAssuranceEVRootCA.crl0",
+                        "http://www.digicert.com/CPS0",
+                        "http://www.digicert.com/ssl-cps-repository.htm0",
+                        "http://cacerts.digicert.com/DigiCertEVCodeSigningCA-SHA2.crt0",
+                        "http://crl4.digicert.com/sha2-assured-ts.crl0",
+                        "http://crl3.digicert.com/EVCodeSigning-g1.crl03",
+                        "http://safe.2345.cc/0",
+                        "http://ocsp.digicert.com",
+                        "http://crl3.digicert.com/sha2-assured-ts.crl02"
+                    ]
+                },
+                "pe_exports": []
+            },
+            "basic": {
+                "sha1": "835254dc933cb7c6f427f53ff3ae6333fe1851f5",
+                "sha256": "13e405bd0cdccb96a9c834ed9bb93e637c84955a496885b8f8d0ee6e23317b92",
+                "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+                "file_name": "13e405bd0cdccb96a9c834ed9bb93e637c84955a496885b8f8d0ee6e23317b92-1654153504",
+                "ssdeep": "49152:HT2GkVT+j99xsILRgTVrNPB8qP+15OPyrIrsf2r73PFgeEzb3KZJXon6gTvLXQUl:zZd/iNPS/nugb+XonDXRtw4Acx",
+                "file_size": 4684120,
+                "md5": "edb8f9131a170e6c005dc10f3354c4d0"
+            }
+        }
+    },
+    "response_code": 0,
+    "verbose_msg": "OK"
+}
